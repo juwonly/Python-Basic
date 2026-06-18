@@ -36,15 +36,80 @@
 # 한줄에 여러개를 출력하고 싶으면 콤마(,)를 출력
 # 만약 print()를 사용할 경우 빈 한줄이 출력
 
-name = "파이썬" 
-age = 28
-height = 188
-print(name)
-print()
-print(age)
-print(height)
-print("hi")
-print()
-print(5)
-print(5*10)
-print(name, age, height, "hello")
+# name = "Jaden" 
+# age = 24
+# height = 188
+# print(name)
+# print()
+# print(age)
+# print(height)
+# print("hi")
+# print()
+# print(5)
+# print(5*10)
+# print(name, age, height, "hello")
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 자료형을 확인하는 방법
+# type() => 괄호안에 있는 변수 또는 값의 자료형을 가지고 옴
+# type(변수)        <= 이렇게 사용하는 경우 프로그램으로 동작은 하지만 자료형을 눈으로 볼 수 없음
+# print(type(변수))
+# 위 형식으로 print()안에 넣어서 주로 사용
+
+# int0 = 1            # int0라는 변수에 int 자료형인 1 저장
+# float0 = 3.14
+# str0 = 'test'
+# type(int0)          # 동작을 하지만 자료형을 눈으로 볼 수 없음
+# print(type(int0))   # type()을 사용하여 int0의 자료형 출력
+# print(type(float0))
+# print(type(str0))
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
+# 형 변환(casting)
+# str(변수 or 값)    => 변수 or 값을 str 자료형으로 변환
+# float(변수 or 값)  => 변수 or 값을 float 자료형으로 변환
+# int(변수 or 값)    => 변수 or 값을 int 자료형으로 변환
+# 단순히 연산하럐만 사용하던 원본의 값은 변하지 않음
+# 원본의 자료형을 변환 시키기 위해서는 변수에 값을 다시 넣어야 함 [ ex. a = int(a)]
+
+# var1 = 2 
+# var2 = '31'
+# result = var1 + int(var2)   # result 변수에 varl 변수 + int 자료형으로 변환한 var2변수 저장
+# print(result)
+# print(type(var2))           # 변수 var2 자료형을 출력, result 변수에는 int 자료형으로 계산이 되었지만
+#                             # 실제 변수의 자료형은 변환 안됨
+# var2 = int(var2)            # var2 변수에 int 자료형으로 변환한 var2 변수 저장
+# print(type(var2))           # 변수 var2 자료형을 출력
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+      
+# input('문자' or 변수)
+# '문자' 또는 변수를 출력한 후 엔터키를 누르기 전까지 키보드 입력을 받음
+# '문자" 또는 변수는 생략 가능
+# 변수 = input('문자' or 변수)
+# 위 형식을 주로 사용, input()만 사용했을 경우 입력 값을 저장하지 못함
+# input()은 무조건 str 자료형으로 값을 저장함
+
+# var1 = 2
+# var2 = input("Insert anything : ") 
+# print(var2) 
+# print(type(var2))
+
+# var2 = int(var2)
+# print(type(var2))
+
+# sum = var1 + var2
+# print(sum)
+
+
+# ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ #
+
+
