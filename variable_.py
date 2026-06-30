@@ -119,7 +119,7 @@
 # print("환영합니다, " + name + "님. 나이를 입력해주세요")
 # age = input()
 # year = 2026
-# time = year - int(age)
+time = year - int(age)
 
 # print(time, "에 태어나셨네요! 키를 입력해주세요.")
 # height = int(input())           # 입력을 받자마자 숫자로 변환
@@ -140,15 +140,15 @@
 # %     나머지
 # **    제곱
 
-a = 10
-b = 3
-print(a+b)
-print(a-b)
-print(a*b)
-print(a/b)
-print(a//b)
-print(a%b)
-print(a**b)
+# a = 10
+# b = 3
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a/b)
+# print(a//b)
+# print(a%b)
+# print(a**b)
 
 
 # ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++ 
